@@ -1,0 +1,1157 @@
+Script started on 2018-12-29 15:20:48-0500
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ ls
+Ch8_Adv_Keyboard_Tricks.txt  command_history_recording_test.txt
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ cat command_history_recording_teest.txt 
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ [H[2J]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ ,[Kman script
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ cat man script
+cat: man: No such file or directory
+cat: script: No such file or directory
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ ma[K[Kman script
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ script man
+Script started, file is man
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ hiostry[K[K[K[K[Kstory g[K| gre-[Kp ssh
+ 1590  [01;31m[Kssh[m[K -p 2223 chris.cirelli.org
+ 1724  history | grep [01;31m[Kssh[m[K
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ !1590
+ssh -p 2223 chris.cirelli.org
+Password:
+Password:
+Password:
+Last login: Thu Dec 27 08:10:29 2018 from 192.168.1.254
+[?1034hChriss-iMac:~ ccirelli2$ crontab -l
+crontab: no crontab for ccirelli2
+Chriss-iMac:~ ccirelli2$ exit
+logout
+Connection to chris.cirelli.org closed.
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ ssh -p 2223 chris.cirelli.org
+^Z
+[1]+  Stopped                 ssh -p 2223 chris.cirelli.org
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ ssh -p 2223 chris.cirelli.org
+Password:
+Last login: Sat Dec 29 15:24:12 2018 from 192.168.1.254
+[?1034hChriss-iMac:~ ccirelli2$ history
+    2  anaconda-project upload
+    3  ls
+    4  cd Public
+    5  ls
+    6  cd Python\ Programing\ Docs/
+    7  ls
+    8  cd Projects
+    9  ls
+   10  mkdir TestAnacondaProject
+   11  ls
+   12  cd TestAnacondaProject/
+   13  anaconda-project init --directory TestAnacondaProject
+   14  ls
+   15  cd TestAnacondaProject/
+   16  ls
+   17  cat anaconda-project.yml 
+   18  anaconda-project upload
+   19  cd
+   20  ls
+   21  cd Public/
+   22  ls
+   23  cd Python\ Programing\ Docs/
+   24  ls
+   25  cd Projects/
+   26  ls
+   27  anaconda-project init --GSU Institute of Insight
+   28  anaconda-project --directory GSU Institute of Insight
+   29  anaconda-project init --directory GSUinstituteInsight
+   30  anaconda-project upload
+   31  ls
+   32  cd GSUinstituteInsight/
+   33  ls
+   34  anaconda-project upload
+   35  anaconda upload PDF\ Converter\ -\ PDF\ -\ PNT\ -\ TXT\ -\ Entire\ Dir_v2_noZip.ipynb 
+   36  anaconda upload Classifying\ Text\ -\ Regex\ -\ Page\ 1\ Each\ Txt\ File.ipynb 
+   37  /Users/ccirelli2/.anaconda/navigator/a.tool ; exit;
+   38  /Users/ccirelli2/anaconda/bin/jupyter_mac.command ; exit;
+   39  /Users/ccirelli2/anaconda/bin/jupyter_mac.command ; exit;
+   40  github
+   41  github .
+   42  pyspark
+   43  /Users/ccirelli2/anaconda/bin/jupyter_mac.command ; exit;
+   44  anaconda-navigator
+   45  /Users/ccirelli2/anaconda/bin/jupyter_mac.command ; exit;
+   46  /Users/ccirelli2/anaconda/bin/jupyter_mac.command ; exit;
+   47  ssh -p 2222 ccirelli@arc.institute.insight
+   48  ssh -p 2222 ccirelli@gsuad.gsu.edu/insight
+   49  -p 2222 ccirelli@gsu.edu
+   50  cd '/Volumes/insight/Legal Analytics Sprint-S18/Team Folders/Team Wang
+   51  ;s
+   52  ls
+   53  ls
+   54  pwd
+   55  cd /Volumes
+   56  ls
+   57  cd insight/
+   58  ls
+   59  ls
+   60  cd Legal Analytics Sprint-S18
+   61  ls
+   62  ls -al
+   63  cd Legal Analytics Sprint-S18
+   64  cd Legal/ Analytics/ Spring-S18
+   65  cd Legal\ Analytics\ Spring-S18
+   66  cd Legal\Analytics\Spring-S18
+   67  pwd
+   68  ls
+   69  cd Legal\ Analytics\ Sprint-S18
+   70  ls
+   71  cd Team\ Folders/
+   72  ls
+   73  cd Team\ Wang
+   74  ls
+   75  ls | more
+   76  ls
+   77  mv GA_Northern_1_16-cv-00013-ELR_0.txt Files\ Converted\ to\ Txt/
+   78  ls
+   79  ifconfig
+   80  /Users/ccirelli2/anaconda/bin/jupyter_mac.command ; exit;
+   81  bin/mysqld_safe --user=mysql &
+   82  mysql
+   83  bin/mysqld_safe
+   84  mysql
+   85  bin/
+   86  cd ..
+   87  ls
+   88  cd Us
+   89  cd Users
+   90  ls
+   91  cd Users
+   92  cd ..
+   93  ls
+   94  cd ..
+   95  ls
+   96  ls
+   97  cd ..
+   98  ls
+   99  ls
+  100  cd Users
+  101  ls
+  102  cd ccirelli2
+  103  ls
+  104  cd ..
+  105  ls
+  106  cd ..
+  107  ls
+  108  cd usr
+  109  ls
+  110  cd local
+  111  ls
+  112  cd mysql
+  113  ls
+  114  mkdir mysql-files
+  115  sudo mkdir mysql-files
+  116  ls
+  117  chwon mysql:mysql mysql-files
+  118  chown mysql:mysql mysql-files
+  119  sudo chown mysql:mysql mysql-files
+  120  chmod 750 mysql-files
+  121  sudo chmod 750 mysql-files
+  122  bin/mysqld --initialize --user=mysql
+  123  bin/mysqld --initialize
+  124  bin/mysqld --initialize --user=mysql
+  125  ls
+  126  mysql_upgrade
+  127  mysqld --initialize
+  128  bin/mysql --initialize
+  129  bin/mysqld --initialize
+  130  ls
+  131  cd mysql-files/
+  132  ls
+  133  sudo cd mysql-files/
+  134  ls
+  135  cd mysql-files/
+  136  sudo cd mysql-files/
+  137  ls
+  138  cd mysql-files/
+  139  sudo cd mysql-files/
+  140  ls
+  141  cd bin
+  142  ls
+  143  mysql
+  144  pwd
+  145  cd ..
+  146  ls
+  147  bin/mysql_install_db --user=mysql
+  148  bin/mysqld --initialize
+  149  history
+  150  cd ..
+  151  ls
+  152  cd ..
+  153  ls
+  154  cd ..
+  155  ls
+  156  ls
+  157  cd bin
+  158  ls
+  159  bin/mysqld --initialize
+  160  cd ..
+  161  cd ..
+  162  ls
+  163  cd Users
+  164  ls
+  165  cd ccirelli2/
+  166  ls
+  167  cd ..
+  168  ls
+  169  cd ..
+  170  ls
+  171  cd bin
+  172  ls
+  173  cd ..
+  174  ls
+  175  cd usr
+  176  ls
+  177  cd sbin
+  178  ls
+  179  cd ..
+  180  ls
+  181  cd bin
+  182  ls
+  183  cd ..
+  184  ls
+  185  cd local
+  186  ls
+  187  cd mysql
+  188  ls
+  189  sudo launchctl start mysql
+  190  launchctl start mysql
+  191  sudo launchctl start mysqld
+  192  mysql
+  193  /usr/local/mysql-5.7.22-osx10.13-x86_64/bin/mysql
+  194  /Users/ccirelli2/Downloads/mysql-5.7.21-1-macos10.13-x86_64.dmg
+  195  sudo /Users/ccirelli2/Downloads/mysql-5.7.21-1-macos10.13-x86_64.dmg
+  196  /usr/ccirelli2/Downloads/mysql-5.7.21-1-macos10.13-x86_64/bin/mysql
+  197  /Users/ccirelli2/Downloads/mysql-5.7.21-1-macos10.13-x86_64/bin/mysql
+  198  /usr/local/mysql-5.7.21-1-macos10.13-x86_64/bin/mysql
+  199  pwd
+  200  ls
+  201  pwd
+  202  cd bin
+  203  ls
+  204  pwd
+  205  ls -lah
+  206  mysql
+  207  top
+  208  ./mysqld
+  209  sudo ./mysqld
+  210  /Users/ccirelli2/anaconda/bin/jupyter_mac.command ; exit;
+  211  jupyter-navigator
+  212  jupyter
+  213  anaconda-navigator
+  214  /Users/ccirelli2/anaconda/bin/jupyter_mac.command ; exit;
+  215  top
+  216  cd /Library/LaunchDaemons
+  217  ls
+  218  sudo launchctl load -F com.oracle.oss.mysql.mysqld.plist
+  219  top
+  220  kill mysqld
+  221  top
+  222  mysql -e "SHOW PROCESSLIST" | grep -v -i "sleep"
+  223  cd ˜
+  224  cd ˜
+  225  cd ..
+  226  ls
+  227  cd ..
+  228  ls
+  229  ls
+  230  cd usr
+  231  ls
+  232  cd bin
+  233  ls
+  234  cd..
+  235  cd ..
+  236  ls
+  237  cd local
+  238  ls
+  239  cd mysql
+  240  ls
+  241  pwd
+  242  cd bin
+  243  ls
+  244  mysql
+  245  cd mysql
+  246  ls -al
+  247  mysql_upgrade
+  248  mysqld
+  249  mysqld_safe
+  250  top
+  251  anaconda-navigator
+  252  top
+  253  kill 1081
+  254  sudo kill 1081
+  255  top
+  256  sudo kill mysqld
+  257  top
+  258  top
+  259  top
+  260  top
+  261  sudo pkill -9 mysql
+  262  top
+  263  sudo pkill -9 mysqld
+  264  top
+  265  sudo rm /usr/local/mysql
+  266  cd ..
+  267  ls
+  268  cd ..
+  269  ls
+  270  cd usr
+  271  ls
+  272  cd local
+  273  ls
+  274  sudo rm mysql-5.7.21-macos10.13-x86_64/
+  275  sudo rmdir mysql-5.7.21-macos10.13-x86_64/
+  276  ls
+  277  cd mysql-5.7.21-macos10.13-x86_64/
+  278  ls
+  279  cd ..
+  280  duso rm -rf /usr/local/mysql*
+  281  sudo rm -rf /usr/local/mysql*
+  282  ls
+  283  pwd
+  284  ls
+  285  top
+  286  ls
+  287  cd lib
+  288  ls
+  289  cd ..
+  290  ls
+  291  cd ..
+  292  ls
+  293  cd ..
+  294  ls
+  295  cd bin
+  296  ls
+  297  cd ..
+  298  ls
+  299  cd /Library/
+  300  ls
+  301  cd StartupItems/
+  302  ls
+  303  ls
+  304  ls -al
+  305  cd ..
+  306  ls
+  307  cd PreferencePanes/
+  308  ls
+  309  sudo rm -rf /Library/PreferencePanes/MySQL.prefPane/
+  310  ls
+  311  top
+  312  top
+  313  /Users/ccirelli2/anaconda/bin/jupyter_mac.command ; exit;
+  314  /Users/ccirelli2/anaconda/bin/jupyter_mac.command ; exit;
+  315  top
+  316  top
+  317  top
+  318  /Users/ccirelli2/anaconda/bin/jupyter_mac.command ; exit;
+  319  pip install django
+  320  django-admin-py --version
+  321  /Users/ccirelli2/.anaconda/navigator/a.tool ; exit;
+  322  pip install mysql-python
+  323  sudo pip install mysql-python
+  324  /Users/ccirelli2/.anaconda/navigator/a.tool ; exit;
+  325  /Users/ccirelli2/anaconda/bin/jupyter_mac.command ; exit;
+  326  ls
+  327  cd Desktop/
+  328  ls
+  329  cd Django\ Project/
+  330  ls
+  331  cd myproject/
+  332  ls
+  333  python manage.py runserver
+  334  /Users/ccirelli2/anaconda/bin/jupyter_mac.command ; exit;
+  335  top
+  336  cd Desktop/
+  337  ls
+  338  ls
+  339  cd ..
+  340  cd ~
+  341  ls
+  342  cd Desktop/
+  343  ls
+  344  cd Django\ Project/
+  345  ls
+  346  cd myproject/
+  347  ls
+  348  python manage.py runserver
+  349  ls
+  350  python manage.py runserver
+  351  sudo pip install mysql-python
+  352  pip install mysql-python
+  353  pyspark
+  354  /Users/ccirelli2/anaconda/bin/jupyter_mac.command ; exit;
+  355  ls
+  356  Desktop/
+  357  ls
+  358  spark-submit Test_spark.py 
+  359  spark-submit Test_spark.py 
+  360  spark-submit Test_spark.py 
+  361  ls
+  362  cd Desktop/
+  363  ls
+  364  spark-submit Test_spark.py
+  365  spark-submit Test_spark.py
+  366  pyspark
+  367  vim Test_spark.py
+  368  ls
+  369  cd Desktop/
+  370  ls
+  371  vim Test_spark.py
+  372  top
+  373  top
+  374  python
+  375  ls
+  376  cd ..
+  377  ls
+  378  cd ccirelli2/
+  379  ls
+  380  cd Desktop/
+  381  ls
+  382  mv Navient\ 2017\ Tax\ Document.pdf 2017\ Tax\ Filling
+  383  pyspark
+  384  ls
+  385  cd Desktop/
+  386  l
+  387  vim lab10.py 
+  388  cd Desktop/
+  389  ls
+  390  vim lab8.py
+  391  top
+  392  ls
+  393  cd Public/
+  394  ls
+  395  cd Python\ Programing\ Docs/
+  396  ls
+  397  cd Pyspark-Repository/
+  398  ls
+  399  cd Final_Project/
+  400  cd ..
+  401  ls
+  402  cd HW2/
+  403  ls
+  404  ls -l
+  405  vim 1-length.py 
+  406  python Test.py 
+  407  ls
+  408  cd Public/
+  409  ls
+  410  cd Python\ Programing\ Docs/
+  411  ls
+  412  cd Pyspark-Repository/
+  413  ls 
+  414  cd Final_Project/
+  415  ls
+  416  vim CostComp_Time.py 
+  417  vim CostComp_Time.py 
+  418  ls
+  419  vim Test.py
+  420  vim Test.py
+  421  vim ExampleAggregateByKeyFunct.py
+  422  ssh ccirelli1@arc.insight.gsu.edu
+  423  ls
+  424  ls | grep Example
+  425  mv ExampleAggregateByKeyFunct.py /Desktop
+  426  mv ExampleAggregateByKeyFunct.py /Desktop/
+  427  pwd
+  428  mv ExampleAggregateByKeyFunct.py /Users/ccirelli2/Desktop/
+  429  ls
+  430  cd Desktop/
+  431  ls
+  432  ls -al
+  433  spark-submit ExampleAggregateByKeyFunct.py 
+  434  spark-submit ExampleAggregateByKeyFunct.py 
+  435  spark-submit ExampleAggregateByKeyFunct.py 
+  436  spark-submit ExampleAggregateByKeyFunct.py 
+  437  ssh ccirelli1@arc.insight.gsu.edu
+  438  ssh ccirelli1@arc.insight.gsu.edu
+  439  ssh ccirelli1@arc.insight.gsu.edu
+  440  ls
+  441  cd Desktop/
+  442  ls
+  443  ls
+  444  vim Pyspark_Fold.py
+  445  ls
+  446  vim Pyspark_Fold.py 
+  447  vim Pyspark_Fold.py 
+  448  ssh ccirelli1@arc.insight.gsu.edu
+  449  ssh ccirelli1@arc.insight.gsu.edu
+  450  ssh cirelli1@arc.insight.gsu.edu
+  451  ssh ccirelli1@arc.insight.gsu.edu
+  452  ssh ccirelli1@arc.insight.gsu.edu
+  453  ssh ccirelli1@arc.insight.gsu.edu
+  454  ssh ccirelli1@arc.insight.gsu.edu
+  455  ssh ccirelli1@arc.insight.gsu.edu
+  456  ssh ccirelli1@arc.insight.gsu.edu
+  457  ssh ccirelli1@arc.insight.gsu.edu
+  458  cd Desktop/
+  459  ls
+  460  scp html.7z ccirelli1@arc.insight.gsu.edu:/home/ccirelli1/SeekingAlpha_txt_analysis
+  461  ssh ccirelli1@arc.insight.gsu.edu
+  462  ssh ccirelli1.arcinsight.gsu.edu
+  463  ssh ccirelli1.arc.insight.gsu.edu
+  464  ssh ccirelli1.arc.insight.gsu.ed
+  465  ssh ccirelli1@arc.insight.gsu.edu
+  466  ls
+  467  cd Desktop/
+  468  ls
+  469  cd SCA_Web_scaper/
+  470  ls
+  471  vim SCA_Web_Scraper_Script_1.py 
+  472  cd Desktop/SCA_Web_scaper/
+  473  vim SCA_Web_Scraper_Script_1.py 
+  474  cd Desktop/
+  475  ls
+  476  cd SCA_Web_scaper/
+  477  ls
+  478  pwd
+  479  ls
+  480  ls -al
+  481  python
+  482  rstudio
+  483  anaconda-navigator
+  484  top
+  485  exit
+  486  exit
+  487  exit
+  488  ssh steve@Chriss-iMac.local
+  489  ls
+  490  cd Desktop/
+  491  ls
+  492  cd Programming/
+  493  ls
+  494  exit() ;
+  495  mysql
+  496  exit
+  497  whoami
+  498  exit
+  499  crontab -l
+  500  exit
+  501  history
+Chriss-iMac:~ ccirelli2$ ! 457
+-bash: 457: command not found
+Chriss-iMac:~ ccirelli2$ ! 456
+-bash: 456: command not found
+Chriss-iMac:~ ccirelli2$ ssh ccirelli1@arc.insight.gsu.edu
+^Z
+[1]+  Stopped                 ssh ccirelli1@arc.insight.gsu.edu
+Chriss-iMac:~ ccirelli2$ [H[2JChriss-iMac:~ ccirelli2$ exit
+logout
+There are stopped jobs.
+Chriss-iMac:~ ccirelli2$ [H[2JChriss-iMac:~ ccirelli2$ git[K[K[Kexit
+logout
+Connection to chris.cirelli.org closed.
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ [H[2J]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ git status
+fatal: not a git repository (or any of the parent directories): .git
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ id
+uid=1000(ccirelli2) gid=1000(ccirelli2) groups=1000(ccirelli2),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),116(lpadmin),126(sambashare)
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ file
+Usage: file [-bcEhikLlNnprsvzZ0] [--apple] [--extension] [--mime-encoding] [--mime-type]
+            [-e testname] [-F separator] [-f namefile] [-m magicfiles] file ...
+       file -C [-m magicfiles]
+       file [--help]
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ man file
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ man ls
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ man ls [K[K[K[K[K[K[Kman ls >> tex[Kst.tx[Kxt
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ ls
+Ch8_Adv_Keyboard_Tricks.txt  command_history_recording_test.txt  man  test.txt
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ cat [K[K[K[Kless test.txt 
+[?1049h[22;0;0t[?1h=LS(1)                                      User Commands                                      LS(1)
+
+NAME
+       ls - list directory contents
+
+SYNOPSIS
+       ls [OPTION]... [FILE]...
+
+DESCRIPTION
+       List information about the FILEs (the current directory by default).  Sort entries alphabet‐
+       ically if none of -cftuvSUX nor --sort is specified.
+
+       Mandatory arguments to long options are mandatory for short options too.
+
+       -a, --all
+              do not ignore entries starting with .
+
+       -A, --almost-all
+              do not list implied . and ..
+
+       --author
+              with -l, print the author of each file
+
+       -b, --escape
+              print C-style escapes for nongraphic characters
+
+       --block-size=SIZE
+              scale sizes by SIZE before printing them;  e.g.,  '--block-size=M'  prints  sizes  in
+              units of 1,048,576 bytes; see SIZE format below
+
+       -B, --ignore-backups
+              do not list implied entries ending with ~
+
+       -c     with -lt: sort by, and show, ctime (time of last modification of file status informa‐
+              tion); with -l: show ctime and sort by name; otherwise: sort by ctime, newest first
+
+       -C     list entries by columns
+
+       --color[=WHEN]
+              colorize the output; WHEN can be 'always' (default if omitted), 'auto',  or  'never';
+              more info below
+
+       -d, --directory
+              list directories themselves, not their contents
+
+       -D, --dired
+              generate output designed for Emacs' dired mode
+
+       -f     do not sort, enable -aU, disable -ls --color
+
+       -F, --classify
+              append indicator (one of */=>@|) to entries
+[7mtest.txt[27m[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KBB[K
+:[K[K[?1l>[?1049l[23;0;0t]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ ls -al
+total 60
+drwxr-xr-x  2 ccirelli2 ccirelli2  4096 Dec 29 15:33 [0m[01;34m.[0m
+drwxrwxr-x 30 ccirelli2 ccirelli2  4096 Dec 29 14:59 [01;34m..[0m
+-rw-r--r--  1 ccirelli2 ccirelli2     0 Dec 29 15:00 Ch8_Adv_Keyboard_Tricks.txt
+-rw-r--r--  1 ccirelli2 ccirelli2 12288 Dec 29 15:00 .Ch8_Adv_Keyboard_Tricks.txt.swp
+-rw-r--r--  1 ccirelli2 ccirelli2 16384 Dec 29 15:31 command_history_recording_test.txt
+-rw-r--r--  1 ccirelli2 ccirelli2 16384 Dec 29 15:33 man
+-rw-r--r--  1 ccirelli2 ccirelli2  7872 Dec 29 15:33 test.txt
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ rm test.txt 
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ man ls 1.[K>
+bash: syntax error near unexpected token `newline'
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ man ls | 1>
+bash: syntax error near unexpected token `newline'
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ [H[2J]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ id
+uid=1000(ccirelli2) gid=1000(ccirelli2) groups=1000(ccirelli2),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),116(lpadmin),126(sambashare)
+]0;ccirelli2@born2ride: ~/Desktop/Programming/Book_The_Linux_Command_Line[01;32mccirelli2@born2ride[00m:[01;34m~/Desktop/Programming/Book_The_Linux_Command_Line[00m$ cd /etc
+]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ ls
+[0m[01;34macpi[0m                    [01;34mghostscript[0m      mailcap                  [01;34mresolvconf[0m
+adduser.conf            [01;34mglvnd[0m            mailcap.order            [01;36mresolv.conf[0m
+[01;34malternatives[0m            [01;34mgnome[0m            manpath.config           [01;32mrmt[0m
+anacrontab              [01;34mgroff[0m            mime.types               rpc
+[01;34mapache2[0m                 group            mke2fs.conf              rsyslog.conf
+apg.conf                group-           [01;34mmodprobe.d[0m               [01;34mrsyslog.d[0m
+[01;34mapm[0m                     [01;34mgrub.d[0m           modules                  [01;34msane.d[0m
+[01;34mapparmor[0m                gshadow          [01;34mmodules-load.d[0m           securetty
+[01;34mapparmor.d[0m              gshadow-         [01;36mmtab[0m                     [01;34msecurity[0m
+[01;34mapport[0m                  [01;34mgss[0m              mtools.conf              [01;34mselinux[0m
+appstream.conf          [01;34mgtk-2.0[0m          [01;34mmysql[0m                    sensors3.conf
+[01;34mapt[0m                     [01;34mgtk-3.0[0m          nanorc                   [01;34msensors.d[0m
+[01;34mavahi[0m                   hdparm.conf      [01;34mnetplan[0m                  services
+bash.bashrc             host.conf        [01;34mnetwork[0m                  shadow
+bash_completion         hostname         [01;34mnetworkd-dispatcher[0m      shadow-
+[01;34mbash_completion.d[0m       hosts            [01;34mNetworkManager[0m           shells
+bindresvport.blacklist  hosts.allow      networks                 [01;34mskel[0m
+[01;34mbinfmt.d[0m                hosts.deny       [01;34mnewt[0m                     [01;34mspeech-dispatcher[0m
+[01;34mbluetooth[0m               [01;34mhp[0m               nsswitch.conf            [01;34mssh[0m
+brlapi.key              [01;34mifplugd[0m          [01;34mODBCDataSources[0m          [01;34mssl[0m
+[01;34mbrltty[0m                  [01;34mImageMagick-6[0m    odbc.ini                 subgid
+brltty.conf             [01;34minit[0m             odbcinst.ini             subgid-
+[01;34mca-certificates[0m         [01;34minit.d[0m           [01;34mOpenCL[0m                   subuid
+ca-certificates.conf    [01;34minitramfs-tools[0m  [01;34mopt[0m                      subuid-
+[01;34mcalendar[0m                inputrc          [01;34moracle-java9-jdk[0m         sudoers
+[01;34mchatscripts[0m             [01;34minsserv.conf.d[0m   [01;36mos-release[0m               [01;34msudoers.d[0m
+[01;34mconsole-setup[0m           [01;34miproute2[0m         [01;34mPackageKit[0m               sysctl.conf
+[01;34mcracklib[0m                issue            pam.conf                 [01;34msysctl.d[0m
+[01;34mcron.d[0m                  issue.net        [01;34mpam.d[0m                    [01;34msystemd[0m
+[01;34mcron.daily[0m              [01;34mjava-11-openjdk[0m  papersize                [01;34mterminfo[0m
+[01;34mcron.hourly[0m             [01;34mkernel[0m           passwd                   [01;34mthermald[0m
+[01;34mcron.monthly[0m            kernel-img.conf  passwd-                  [01;34mthunderbird[0m
+crontab                 kerneloops.conf  [01;34mpcmcia[0m                   timezone
+[01;34mcron.weekly[0m             [01;34mldap[0m             [01;34mperl[0m                     [01;34mtmpfiles.d[0m
+[01;34mcups[0m                    ld.so.cache      [01;34mpki[0m                      ucf.conf
+[01;34mcupshelpers[0m             ld.so.conf       [01;34mpm[0m                       [01;34mudev[0m
+[01;34mdbus-1[0m                  [01;34mld.so.conf.d[0m     pnm2ppa.conf             [01;34mudisks2[0m
+[01;34mdconf[0m                   legal            [01;34mpolkit-1[0m                 [01;34mufw[0m
+debconf.conf            libao.conf       popularity-contest.conf  updatedb.conf
+debian_version          libaudit.conf    [01;34mppp[0m                      [01;34mupdate-manager[0m
+[01;34mdefault[0m                 [01;34mlibblockdev[0m      prime-discrete           [01;34mupdate-motd.d[0m
+deluser.conf            [01;34mlibnl-3[0m          [01;36mprintcap[0m                 [01;34mupdate-notifier[0m
+[01;34mdepmod.d[0m                [01;34mlibpaper.d[0m       profile                  [01;34mUPower[0m
+[01;34mdhcp[0m                    [01;34mlibreoffice[0m      [01;34mprofile.d[0m                usb_modeswitch.conf
+[01;34mdictionaries-common[0m     [01;34mlighttpd[0m         protocols                [01;34musb_modeswitch.d[0m
+[01;34mdkms[0m                    lintianrc        [01;34mpulse[0m                    vdpau_wrapper.cfg
+[01;34mdpkg[0m                    locale.alias     [01;34mpython[0m                   [01;34mvim[0m
+drirc                   locale.gen       [01;34mpython2.7[0m                [01;36mvtrgb[0m
+[01;34memacs[0m                   [01;36mlocaltime[0m        [01;34mpython3[0m                  wgetrc
+environment             [01;34mlogcheck[0m         [01;34mpython3.6[0m                whoopsie
+[01;34mfirefox[0m                 login.defs       [01;34mR[0m                        [01;34mwpa_supplicant[0m
+[01;34mfonts[0m                   logrotate.conf   [01;34mrc0.d[0m                    [01;34mX11[0m
+fstab                   [01;34mlogrotate.d[0m      [01;34mrc1.d[0m                    [01;34mxdg[0m
+fuse.conf               lsb-release      [01;34mrc2.d[0m                    [01;34myum[0m
+[01;34mfwupd[0m                   ltrace.conf      [01;34mrc3.d[0m                    [01;34myum.repos.d[0m
+gai.conf                [01;34mlvm[0m              [01;34mrc4.d[0m                    zsh_command_not_found
+[01;34mgdb[0m                     machine-id       [01;34mrc5.d[0m
+[01;34mgdm3[0m                    magic            [01;34mrc6.d[0m
+[01;34mgeoclue[0m                 magic.mime       [01;34mrcS.d[0m
+]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ gre [Kp passwd
+|ls
+;
+e ^Z
+[2]+  Stopped                 grep --color=auto passwd
+]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ greo [Kp[K[Kp ps[Kasswr[Kd | ls
+[0m[01;34macpi[0m                    [01;34mghostscript[0m      mailcap                  [01;34mresolvconf[0m
+adduser.conf            [01;34mglvnd[0m            mailcap.order            [01;36mresolv.conf[0m
+[01;34malternatives[0m            [01;34mgnome[0m            manpath.config           [01;32mrmt[0m
+anacrontab              [01;34mgroff[0m            mime.types               rpc
+[01;34mapache2[0m                 group            mke2fs.conf              rsyslog.conf
+apg.conf                group-           [01;34mmodprobe.d[0m               [01;34mrsyslog.d[0m
+[01;34mapm[0m                     [01;34mgrub.d[0m           modules                  [01;34msane.d[0m
+[01;34mapparmor[0m                gshadow          [01;34mmodules-load.d[0m           securetty
+[01;34mapparmor.d[0m              gshadow-         [01;36mmtab[0m                     [01;34msecurity[0m
+[01;34mapport[0m                  [01;34mgss[0m              mtools.conf              [01;34mselinux[0m
+appstream.conf          [01;34mgtk-2.0[0m          [01;34mmysql[0m                    sensors3.conf
+[01;34mapt[0m                     [01;34mgtk-3.0[0m          nanorc                   [01;34msensors.d[0m
+[01;34mavahi[0m                   hdparm.conf      [01;34mnetplan[0m                  services
+bash.bashrc             host.conf        [01;34mnetwork[0m                  shadow
+bash_completion         hostname         [01;34mnetworkd-dispatcher[0m      shadow-
+[01;34mbash_completion.d[0m       hosts            [01;34mNetworkManager[0m           shells
+bindresvport.blacklist  hosts.allow      networks                 [01;34mskel[0m
+[01;34mbinfmt.d[0m                hosts.deny       [01;34mnewt[0m                     [01;34mspeech-dispatcher[0m
+[01;34mbluetooth[0m               [01;34mhp[0m               nsswitch.conf            [01;34mssh[0m
+brlapi.key              [01;34mifplugd[0m          [01;34mODBCDataSources[0m          [01;34mssl[0m
+[01;34mbrltty[0m                  [01;34mImageMagick-6[0m    odbc.ini                 subgid
+brltty.conf             [01;34minit[0m             odbcinst.ini             subgid-
+[01;34mca-certificates[0m         [01;34minit.d[0m           [01;34mOpenCL[0m                   subuid
+ca-certificates.conf    [01;34minitramfs-tools[0m  [01;34mopt[0m                      subuid-
+[01;34mcalendar[0m                inputrc          [01;34moracle-java9-jdk[0m         sudoers
+[01;34mchatscripts[0m             [01;34minsserv.conf.d[0m   [01;36mos-release[0m               [01;34msudoers.d[0m
+[01;34mconsole-setup[0m           [01;34miproute2[0m         [01;34mPackageKit[0m               sysctl.conf
+[01;34mcracklib[0m                issue            pam.conf                 [01;34msysctl.d[0m
+[01;34mcron.d[0m                  issue.net        [01;34mpam.d[0m                    [01;34msystemd[0m
+[01;34mcron.daily[0m              [01;34mjava-11-openjdk[0m  papersize                [01;34mterminfo[0m
+[01;34mcron.hourly[0m             [01;34mkernel[0m           passwd                   [01;34mthermald[0m
+[01;34mcron.monthly[0m            kernel-img.conf  passwd-                  [01;34mthunderbird[0m
+crontab                 kerneloops.conf  [01;34mpcmcia[0m                   timezone
+[01;34mcron.weekly[0m             [01;34mldap[0m             [01;34mperl[0m                     [01;34mtmpfiles.d[0m
+[01;34mcups[0m                    ld.so.cache      [01;34mpki[0m                      ucf.conf
+[01;34mcupshelpers[0m             ld.so.conf       [01;34mpm[0m                       [01;34mudev[0m
+[01;34mdbus-1[0m                  [01;34mld.so.conf.d[0m     pnm2ppa.conf             [01;34mudisks2[0m
+[01;34mdconf[0m                   legal            [01;34mpolkit-1[0m                 [01;34mufw[0m
+debconf.conf            libao.conf       popularity-contest.conf  updatedb.conf
+debian_version          libaudit.conf    [01;34mppp[0m                      [01;34mupdate-manager[0m
+[01;34mdefault[0m                 [01;34mlibblockdev[0m      prime-discrete           [01;34mupdate-motd.d[0m
+deluser.conf            [01;34mlibnl-3[0m          [01;36mprintcap[0m                 [01;34mupdate-notifier[0m
+[01;34mdepmod.d[0m                [01;34mlibpaper.d[0m       profile                  [01;34mUPower[0m
+[01;34mdhcp[0m                    [01;34mlibreoffice[0m      [01;34mprofile.d[0m                usb_modeswitch.conf
+[01;34mdictionaries-common[0m     [01;34mlighttpd[0m         protocols                [01;34musb_modeswitch.d[0m
+[01;34mdkms[0m                    lintianrc        [01;34mpulse[0m                    vdpau_wrapper.cfg
+[01;34mdpkg[0m                    locale.alias     [01;34mpython[0m                   [01;34mvim[0m
+drirc                   locale.gen       [01;34mpython2.7[0m                [01;36mvtrgb[0m
+[01;34memacs[0m                   [01;36mlocaltime[0m        [01;34mpython3[0m                  wgetrc
+environment             [01;34mlogcheck[0m         [01;34mpython3.6[0m                whoopsie
+[01;34mfirefox[0m                 login.defs       [01;34mR[0m                        [01;34mwpa_supplicant[0m
+[01;34mfonts[0m                   logrotate.conf   [01;34mrc0.d[0m                    [01;34mX11[0m
+fstab                   [01;34mlogrotate.d[0m      [01;34mrc1.d[0m                    [01;34mxdg[0m
+fuse.conf               lsb-release      [01;34mrc2.d[0m                    [01;34myum[0m
+[01;34mfwupd[0m                   ltrace.conf      [01;34mrc3.d[0m                    [01;34myum.repos.d[0m
+gai.conf                [01;34mlvm[0m              [01;34mrc4.d[0m                    zsh_command_not_found
+[01;34mgdb[0m                     machine-id       [01;34mrc5.d[0m
+[01;34mgdm3[0m                    magic            [01;34mrc6.d[0m
+[01;34mgeoclue[0m                 magic.mime       [01;34mrcS.d[0m
+^L  ^Z
+[3]+  Stopped                 grep --color=auto passwd | ls --color=auto
+]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ [H[2J]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ ls
+[0m[01;34macpi[0m                    [01;34mghostscript[0m      mailcap                  [01;34mresolvconf[0m
+adduser.conf            [01;34mglvnd[0m            mailcap.order            [01;36mresolv.conf[0m
+[01;34malternatives[0m            [01;34mgnome[0m            manpath.config           [01;32mrmt[0m
+anacrontab              [01;34mgroff[0m            mime.types               rpc
+[01;34mapache2[0m                 group            mke2fs.conf              rsyslog.conf
+apg.conf                group-           [01;34mmodprobe.d[0m               [01;34mrsyslog.d[0m
+[01;34mapm[0m                     [01;34mgrub.d[0m           modules                  [01;34msane.d[0m
+[01;34mapparmor[0m                gshadow          [01;34mmodules-load.d[0m           securetty
+[01;34mapparmor.d[0m              gshadow-         [01;36mmtab[0m                     [01;34msecurity[0m
+[01;34mapport[0m                  [01;34mgss[0m              mtools.conf              [01;34mselinux[0m
+appstream.conf          [01;34mgtk-2.0[0m          [01;34mmysql[0m                    sensors3.conf
+[01;34mapt[0m                     [01;34mgtk-3.0[0m          nanorc                   [01;34msensors.d[0m
+[01;34mavahi[0m                   hdparm.conf      [01;34mnetplan[0m                  services
+bash.bashrc             host.conf        [01;34mnetwork[0m                  shadow
+bash_completion         hostname         [01;34mnetworkd-dispatcher[0m      shadow-
+[01;34mbash_completion.d[0m       hosts            [01;34mNetworkManager[0m           shells
+bindresvport.blacklist  hosts.allow      networks                 [01;34mskel[0m
+[01;34mbinfmt.d[0m                hosts.deny       [01;34mnewt[0m                     [01;34mspeech-dispatcher[0m
+[01;34mbluetooth[0m               [01;34mhp[0m               nsswitch.conf            [01;34mssh[0m
+brlapi.key              [01;34mifplugd[0m          [01;34mODBCDataSources[0m          [01;34mssl[0m
+[01;34mbrltty[0m                  [01;34mImageMagick-6[0m    odbc.ini                 subgid
+brltty.conf             [01;34minit[0m             odbcinst.ini             subgid-
+[01;34mca-certificates[0m         [01;34minit.d[0m           [01;34mOpenCL[0m                   subuid
+ca-certificates.conf    [01;34minitramfs-tools[0m  [01;34mopt[0m                      subuid-
+[01;34mcalendar[0m                inputrc          [01;34moracle-java9-jdk[0m         sudoers
+[01;34mchatscripts[0m             [01;34minsserv.conf.d[0m   [01;36mos-release[0m               [01;34msudoers.d[0m
+[01;34mconsole-setup[0m           [01;34miproute2[0m         [01;34mPackageKit[0m               sysctl.conf
+[01;34mcracklib[0m                issue            pam.conf                 [01;34msysctl.d[0m
+[01;34mcron.d[0m                  issue.net        [01;34mpam.d[0m                    [01;34msystemd[0m
+[01;34mcron.daily[0m              [01;34mjava-11-openjdk[0m  papersize                [01;34mterminfo[0m
+[01;34mcron.hourly[0m             [01;34mkernel[0m           passwd                   [01;34mthermald[0m
+[01;34mcron.monthly[0m            kernel-img.conf  passwd-                  [01;34mthunderbird[0m
+crontab                 kerneloops.conf  [01;34mpcmcia[0m                   timezone
+[01;34mcron.weekly[0m             [01;34mldap[0m             [01;34mperl[0m                     [01;34mtmpfiles.d[0m
+[01;34mcups[0m                    ld.so.cache      [01;34mpki[0m                      ucf.conf
+[01;34mcupshelpers[0m             ld.so.conf       [01;34mpm[0m                       [01;34mudev[0m
+[01;34mdbus-1[0m                  [01;34mld.so.conf.d[0m     pnm2ppa.conf             [01;34mudisks2[0m
+[01;34mdconf[0m                   legal            [01;34mpolkit-1[0m                 [01;34mufw[0m
+debconf.conf            libao.conf       popularity-contest.conf  updatedb.conf
+debian_version          libaudit.conf    [01;34mppp[0m                      [01;34mupdate-manager[0m
+[01;34mdefault[0m                 [01;34mlibblockdev[0m      prime-discrete           [01;34mupdate-motd.d[0m
+deluser.conf            [01;34mlibnl-3[0m          [01;36mprintcap[0m                 [01;34mupdate-notifier[0m
+[01;34mdepmod.d[0m                [01;34mlibpaper.d[0m       profile                  [01;34mUPower[0m
+[01;34mdhcp[0m                    [01;34mlibreoffice[0m      [01;34mprofile.d[0m                usb_modeswitch.conf
+[01;34mdictionaries-common[0m     [01;34mlighttpd[0m         protocols                [01;34musb_modeswitch.d[0m
+[01;34mdkms[0m                    lintianrc        [01;34mpulse[0m                    vdpau_wrapper.cfg
+[01;34mdpkg[0m                    locale.alias     [01;34mpython[0m                   [01;34mvim[0m
+drirc                   locale.gen       [01;34mpython2.7[0m                [01;36mvtrgb[0m
+[01;34memacs[0m                   [01;36mlocaltime[0m        [01;34mpython3[0m                  wgetrc
+environment             [01;34mlogcheck[0m         [01;34mpython3.6[0m                whoopsie
+[01;34mfirefox[0m                 login.defs       [01;34mR[0m                        [01;34mwpa_supplicant[0m
+[01;34mfonts[0m                   logrotate.conf   [01;34mrc0.d[0m                    [01;34mX11[0m
+fstab                   [01;34mlogrotate.d[0m      [01;34mrc1.d[0m                    [01;34mxdg[0m
+fuse.conf               lsb-release      [01;34mrc2.d[0m                    [01;34myum[0m
+[01;34mfwupd[0m                   ltrace.conf      [01;34mrc3.d[0m                    [01;34myum.repos.d[0m
+gai.conf                [01;34mlvm[0m              [01;34mrc4.d[0m                    zsh_command_not_found
+[01;34mgdb[0m                     machine-id       [01;34mrc5.d[0m
+[01;34mgdm3[0m                    magic            [01;34mrc6.d[0m
+[01;34mgeoclue[0m                 magic.mime       [01;34mrcS.d[0m
+]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ ls as[K[Kpasswd
+passwd   passwd-  
+]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ ls passwd | -al
+
+Command '-al' not found, did you mean:
+
+  command 'pal' from deb pal
+  command 'fal' from deb dnet-progs
+  command 'cal' from deb bsdmainutils
+  command 'al' from deb mono-devel
+
+Try: sudo apt install <deb name>
+
+]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ ls passwd -al
+-rw-r--r-- 1 root root 2562 Dec  4 07:39 passwd
+]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ cat passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd/netif:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd/resolve:/usr/sbin/nologin
+syslog:x:102:106::/home/syslog:/usr/sbin/nologin
+messagebus:x:103:107::/nonexistent:/usr/sbin/nologin
+_apt:x:104:65534::/nonexistent:/usr/sbin/nologin
+uuidd:x:105:111::/run/uuidd:/usr/sbin/nologin
+avahi-autoipd:x:106:112:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:107:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+dnsmasq:x:108:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+rtkit:x:109:114:RealtimeKit,,,:/proc:/usr/sbin/nologin
+speech-dispatcher:x:110:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/false
+whoopsie:x:111:117::/nonexistent:/bin/false
+kernoops:x:112:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+saned:x:113:119::/var/lib/saned:/usr/sbin/nologin
+pulse:x:114:120:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
+avahi:x:115:122:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
+colord:x:116:123:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+hplip:x:117:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+geoclue:x:118:124::/var/lib/geoclue:/usr/sbin/nologin
+gnome-initial-setup:x:119:65534::/run/gnome-initial-setup/:/bin/false
+gdm:x:120:125:Gnome Display Manager:/var/lib/gdm3:/bin/false
+ccirelli2:x:1000:1000:Chris Cirelli,,,:/home/ccirelli2:/bin/bash
+cups-pk-helper:x:121:116:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+mysql:x:123:128:MySQL Server,,,:/nonexistent:/bin/false
+nvidia-persistenced:x:122:127:NVIDIA Persistence Daemon,,,:/nonexistent:/sbin/nologin
+]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ [H[2J]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$  ls[K[K[Kls 
+[0m[01;34macpi[0m                    [01;34mghostscript[0m      mailcap                  [01;34mresolvconf[0m
+adduser.conf            [01;34mglvnd[0m            mailcap.order            [01;36mresolv.conf[0m
+[01;34malternatives[0m            [01;34mgnome[0m            manpath.config           [01;32mrmt[0m
+anacrontab              [01;34mgroff[0m            mime.types               rpc
+[01;34mapache2[0m                 group            mke2fs.conf              rsyslog.conf
+apg.conf                group-           [01;34mmodprobe.d[0m               [01;34mrsyslog.d[0m
+[01;34mapm[0m                     [01;34mgrub.d[0m           modules                  [01;34msane.d[0m
+[01;34mapparmor[0m                gshadow          [01;34mmodules-load.d[0m           securetty
+[01;34mapparmor.d[0m              gshadow-         [01;36mmtab[0m                     [01;34msecurity[0m
+[01;34mapport[0m                  [01;34mgss[0m              mtools.conf              [01;34mselinux[0m
+appstream.conf          [01;34mgtk-2.0[0m          [01;34mmysql[0m                    sensors3.conf
+[01;34mapt[0m                     [01;34mgtk-3.0[0m          nanorc                   [01;34msensors.d[0m
+[01;34mavahi[0m                   hdparm.conf      [01;34mnetplan[0m                  services
+bash.bashrc             host.conf        [01;34mnetwork[0m                  shadow
+bash_completion         hostname         [01;34mnetworkd-dispatcher[0m      shadow-
+[01;34mbash_completion.d[0m       hosts            [01;34mNetworkManager[0m           shells
+bindresvport.blacklist  hosts.allow      networks                 [01;34mskel[0m
+[01;34mbinfmt.d[0m                hosts.deny       [01;34mnewt[0m                     [01;34mspeech-dispatcher[0m
+[01;34mbluetooth[0m               [01;34mhp[0m               nsswitch.conf            [01;34mssh[0m
+brlapi.key              [01;34mifplugd[0m          [01;34mODBCDataSources[0m          [01;34mssl[0m
+[01;34mbrltty[0m                  [01;34mImageMagick-6[0m    odbc.ini                 subgid
+brltty.conf             [01;34minit[0m             odbcinst.ini             subgid-
+[01;34mca-certificates[0m         [01;34minit.d[0m           [01;34mOpenCL[0m                   subuid
+ca-certificates.conf    [01;34minitramfs-tools[0m  [01;34mopt[0m                      subuid-
+[01;34mcalendar[0m                inputrc          [01;34moracle-java9-jdk[0m         sudoers
+[01;34mchatscripts[0m             [01;34minsserv.conf.d[0m   [01;36mos-release[0m               [01;34msudoers.d[0m
+[01;34mconsole-setup[0m           [01;34miproute2[0m         [01;34mPackageKit[0m               sysctl.conf
+[01;34mcracklib[0m                issue            pam.conf                 [01;34msysctl.d[0m
+[01;34mcron.d[0m                  issue.net        [01;34mpam.d[0m                    [01;34msystemd[0m
+[01;34mcron.daily[0m              [01;34mjava-11-openjdk[0m  papersize                [01;34mterminfo[0m
+[01;34mcron.hourly[0m             [01;34mkernel[0m           passwd                   [01;34mthermald[0m
+[01;34mcron.monthly[0m            kernel-img.conf  passwd-                  [01;34mthunderbird[0m
+crontab                 kerneloops.conf  [01;34mpcmcia[0m                   timezone
+[01;34mcron.weekly[0m             [01;34mldap[0m             [01;34mperl[0m                     [01;34mtmpfiles.d[0m
+[01;34mcups[0m                    ld.so.cache      [01;34mpki[0m                      ucf.conf
+[01;34mcupshelpers[0m             ld.so.conf       [01;34mpm[0m                       [01;34mudev[0m
+[01;34mdbus-1[0m                  [01;34mld.so.conf.d[0m     pnm2ppa.conf             [01;34mudisks2[0m
+[01;34mdconf[0m                   legal            [01;34mpolkit-1[0m                 [01;34mufw[0m
+debconf.conf            libao.conf       popularity-contest.conf  updatedb.conf
+debian_version          libaudit.conf    [01;34mppp[0m                      [01;34mupdate-manager[0m
+[01;34mdefault[0m                 [01;34mlibblockdev[0m      prime-discrete           [01;34mupdate-motd.d[0m
+deluser.conf            [01;34mlibnl-3[0m          [01;36mprintcap[0m                 [01;34mupdate-notifier[0m
+[01;34mdepmod.d[0m                [01;34mlibpaper.d[0m       profile                  [01;34mUPower[0m
+[01;34mdhcp[0m                    [01;34mlibreoffice[0m      [01;34mprofile.d[0m                usb_modeswitch.conf
+[01;34mdictionaries-common[0m     [01;34mlighttpd[0m         protocols                [01;34musb_modeswitch.d[0m
+[01;34mdkms[0m                    lintianrc        [01;34mpulse[0m                    vdpau_wrapper.cfg
+[01;34mdpkg[0m                    locale.alias     [01;34mpython[0m                   [01;34mvim[0m
+drirc                   locale.gen       [01;34mpython2.7[0m                [01;36mvtrgb[0m
+[01;34memacs[0m                   [01;36mlocaltime[0m        [01;34mpython3[0m                  wgetrc
+environment             [01;34mlogcheck[0m         [01;34mpython3.6[0m                whoopsie
+[01;34mfirefox[0m                 login.defs       [01;34mR[0m                        [01;34mwpa_supplicant[0m
+[01;34mfonts[0m                   logrotate.conf   [01;34mrc0.d[0m                    [01;34mX11[0m
+fstab                   [01;34mlogrotate.d[0m      [01;34mrc1.d[0m                    [01;34mxdg[0m
+fuse.conf               lsb-release      [01;34mrc2.d[0m                    [01;34myum[0m
+[01;34mfwupd[0m                   ltrace.conf      [01;34mrc3.d[0m                    [01;34myum.repos.d[0m
+gai.conf                [01;34mlvm[0m              [01;34mrc4.d[0m                    zsh_command_not_found
+[01;34mgdb[0m                     machine-id       [01;34mrc5.d[0m
+[01;34mgdm3[0m                    magic            [01;34mrc6.d[0m
+[01;34mgeoclue[0m                 magic.mime       [01;34mrcS.d[0m
+]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ ls passwd
+passwd   passwd-  
+]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ ls passwd[K[K[K[K[K[K[K[K[Kcat passwd-
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd/netif:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd/resolve:/usr/sbin/nologin
+syslog:x:102:106::/home/syslog:/usr/sbin/nologin
+messagebus:x:103:107::/nonexistent:/usr/sbin/nologin
+_apt:x:104:65534::/nonexistent:/usr/sbin/nologin
+uuidd:x:105:111::/run/uuidd:/usr/sbin/nologin
+avahi-autoipd:x:106:112:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:107:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+dnsmasq:x:108:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+rtkit:x:109:114:RealtimeKit,,,:/proc:/usr/sbin/nologin
+speech-dispatcher:x:110:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/false
+whoopsie:x:111:117::/nonexistent:/bin/false
+kernoops:x:112:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+saned:x:113:119::/var/lib/saned:/usr/sbin/nologin
+pulse:x:114:120:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
+avahi:x:115:122:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
+colord:x:116:123:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+hplip:x:117:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+geoclue:x:118:124::/var/lib/geoclue:/usr/sbin/nologin
+gnome-initial-setup:x:119:65534::/run/gnome-initial-setup/:/bin/false
+gdm:x:120:125:Gnome Display Manager:/var/lib/gdm3:/bin/false
+ccirelli2:x:1000:1000:Chris Cirelli,,,:/home/ccirelli2:/bin/bash
+cups-pk-helper:x:121:116:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+mysql:x:123:128:MySQL Server,,,:/nonexistent:/bin/false
+nvidia-persistenced:x:122:127::/nonexistent:/sbin/nologin
+]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ vim passwd
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;53r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[53;1H"passwd" [readonly] 43L, 2562C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[36mroot[m:[35mx[m:[31m0[m:[31m0[m:[34mroot[m:[32m/root[m:[38;5;130m/bin/bash[m
+[36mdaemon[m:[35mx[m:[31m1[m:[31m1[m:[34mdaemon[m:[32m/usr/sbin[m:[38;5;130m/usr/sbin/nologin[m
+[36mbin[m:[35mx[m:[31m2[m:[31m2[m:[34mbin[m:[32m/bin[m:[38;5;130m/usr/sbin/nologin[m
+[36msys[m:[35mx[m:[31m3[m:[31m3[m:[34msys[m:[32m/dev[m:[38;5;130m/usr/sbin/nologin[m
+[36msync[m:[35mx[m:[31m4[m:[31m65534[m:[34msync[m:[32m/bin[m:[38;5;130m/bin/sync[m
+[36mgames[m:[35mx[m:[31m5[m:[31m60[m:[34mgames[m:[32m/usr/games[m:[38;5;130m/usr/sbin/nologin[m
+[36mman[m:[35mx[m:[31m6[m:[31m12[m:[34mman[m:[32m/var/cache/man[m:[38;5;130m/usr/sbin/nologin[m
+[36mlp[m:[35mx[m:[31m7[m:[31m7[m:[34mlp[m:[32m/var/spool/lpd[m:[38;5;130m/usr/sbin/nologin[m
+[36mmail[m:[35mx[m:[31m8[m:[31m8[m:[34mmail[m:[32m/var/mail[m:[38;5;130m/usr/sbin/nologin[m
+[36mnews[m:[35mx[m:[31m9[m:[31m9[m:[34mnews[m:[32m/var/spool/news[m:[38;5;130m/usr/sbin/nologin[m
+[36muucp[m:[35mx[m:[31m10[m:[31m10[m:[34muucp[m:[32m/var/spool/uucp[m:[38;5;130m/usr/sbin/nologin[m
+[36mproxy[m:[35mx[m:[31m13[m:[31m13[m:[34mproxy[m:[32m/bin[m:[38;5;130m/usr/sbin/nologin[m
+[36mwww-data[m:[35mx[m:[31m33[m:[31m33[m:[34mwww-data[m:[32m/var/www[m:[38;5;130m/usr/sbin/nologin[m
+[36mbackup[m:[35mx[m:[31m34[m:[31m34[m:[34mbackup[m:[32m/var/backups[m:[38;5;130m/usr/sbin/nologin[m
+[36mlist[m:[35mx[m:[31m38[m:[31m38[m:[34mMailing List Manager[m:[32m/var/list[m:[38;5;130m/usr/sbin/nologin[m
+[36mirc[m:[35mx[m:[31m39[m:[31m39[m:[34mircd[m:[32m/var/run/ircd[m:[38;5;130m/usr/sbin/nologin[m
+[36mgnats[m:[35mx[m:[31m41[m:[31m41[m:[34mGnats Bug-Reporting System (admin)[m:[32m/var/lib/gnats[m:[38;5;130m/usr/sbin/nologin[m
+[36mnobody[m:[35mx[m:[31m65534[m:[31m65534[m:[34mnobody[m:[32m/nonexistent[m:[38;5;130m/usr/sbin/nologin[m
+[36msystemd-network[m:[35mx[m:[31m100[m:[31m102[m:[34msystemd Network Management,,,[m:[32m/run/systemd/netif[m:[38;5;130m/usr/sbin/nologin[m
+[36msystemd-resolve[m:[35mx[m:[31m101[m:[31m103[m:[34msystemd Resolver,,,[m:[32m/run/systemd/resolve[m:[38;5;130m/usr/sbin/nologin[m
+[36msyslog[m:[35mx[m:[31m102[m:[31m106[m::[32m/home/syslog[m:[38;5;130m/usr/sbin/nologin[m
+[36mmessagebus[m:[35mx[m:[31m103[m:[31m107[m::[32m/nonexistent[m:[38;5;130m/usr/sbin/nologin[m
+[36m_apt[m:[35mx[m:[31m104[m:[31m65534[m::[32m/nonexistent[m:[38;5;130m/usr/sbin/nologin[m
+[36muuidd[m:[35mx[m:[31m105[m:[31m111[m::[32m/run/uuidd[m:[38;5;130m/usr/sbin/nologin[m
+[36mavahi-autoipd[m:[35mx[m:[31m106[m:[31m112[m:[34mAvahi autoip daemon,,,[m:[32m/var/lib/avahi-autoipd[m:[38;5;130m/usr/sbin/nologin[m
+[36musbmux[m:[35mx[m:[31m107[m:[31m46[m:[34musbmux daemon,,,[m:[32m/var/lib/usbmux[m:[38;5;130m/usr/sbin/nologin[m
+[36mdnsmasq[m:[35mx[m:[31m108[m:[31m65534[m:[34mdnsmasq,,,[m:[32m/var/lib/misc[m:[38;5;130m/usr/sbin/nologin[m
+[36mrtkit[m:[35mx[m:[31m109[m:[31m114[m:[34mRealtimeKit,,,[m:[32m/proc[m:[38;5;130m/usr/sbin/nologin[m
+[36mspeech-dispatcher[m:[35mx[m:[31m110[m:[31m29[m:[34mSpeech Dispatcher,,,[m:[32m/var/run/speech-dispatcher[m:[38;5;130m/bin/false[m
+[36mwhoopsie[m:[35mx[m:[31m111[m:[31m117[m::[32m/nonexistent[m:[38;5;130m/bin/false[m
+[36mkernoops[m:[35mx[m:[31m112[m:[31m65534[m:[34mKernel Oops Tracking Daemon,,,[m:[32m/[m:[38;5;130m/usr/sbin/nologin[m
+[36msaned[m:[35mx[m:[31m113[m:[31m119[m::[32m/var/lib/saned[m:[38;5;130m/usr/sbin/nologin[m
+[36mpulse[m:[35mx[m:[31m114[m:[31m120[m:[34mPulseAudio daemon,,,[m:[32m/var/run/pulse[m:[38;5;130m/usr/sbin/nologin[m
+[36mavahi[m:[35mx[m:[31m115[m:[31m122[m:[34mAvahi mDNS daemon,,,[m:[32m/var/run/avahi-daemon[m:[38;5;130m/usr/sbin/nologin[m
+[36mcolord[m:[35mx[m:[31m116[m:[31m123[m:[34mcolord colour management daemon,,,[m:[32m/var/lib/colord[m:[38;5;130m/usr/sbin/nologin[m
+[36mhplip[m:[35mx[m:[31m117[m:[31m7[m:[34mHPLIP system user,,,[m:[32m/var/run/hplip[m:[38;5;130m/bin/false[m
+[36mgeoclue[m:[35mx[m:[31m118[m:[31m124[m::[32m/var/lib/geoclue[m:[38;5;130m/usr/sbin/nologin[m
+[36mgnome-initial-setup[m:[35mx[m:[31m119[m:[31m65534[m::[32m/run/gnome-initial-setup/[m:[38;5;130m/bin/false[m
+[36mgdm[m:[35mx[m:[31m120[m:[31m125[m:[34mGnome Display Manager[m:[32m/var/lib/gdm3[m:[38;5;130m/bin/false[m
+[36mccirelli2[m:[35mx[m:[31m1000[m:[31m1000[m:[34mChris Cirelli,,,[m:[32m/home/ccirelli2[m:[38;5;130m/bin/bash[m
+[36mcups-pk-helper[m:[35mx[m:[31m121[m:[31m116[m:[34muser for cups-pk-helper service,,,[m:[32m/home/cups-pk-helper[m:[38;5;130m/usr/sbin/nologin[m
+[36mmysql[m:[35mx[m:[31m123[m:[31m128[m:[34mMySQL Server,,,[m:[32m/nonexistent[m:[38;5;130m/bin/false[m
+[36mnvidia-persistenced[m:[35mx[m:[31m122[m:[31m127[m:[34mNVIDIA Persistence Daemon,,,[m:[32m/nonexistent[m:[38;5;130m/sbin/nologin[m
+[94m~                                                                                                     [45;1H~                                                                                                     [46;1H~                                                                                                     [47;1H~                                                                                                     [48;1H~                                                                                                     [49;1H~                                                                                                     [50;1H~                                                                                                     [51;1H~                                                                                                     [52;1H~                                                                                                     [m[53;85H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1H[1m[96mroot[m:[38;5;224mx[m:[95m0[m:[95m0[m:[96mroot[m:[38;5;121m/root[m:[93m/bin/bash[m
+[1m[96mdaemon[m:[38;5;224mx[m:[95m1[m:[95m1[m:[96mdaemon[m:[38;5;121m/usr/sbin[m:[93m/usr/sbin/nologin[m
+[1m[96mbin[m:[38;5;224mx[m:[95m2[m:[95m2[m:[96mbin[m:[38;5;121m/bin[m:[93m/usr/sbin/nologin[m
+[1m[96msys[m:[38;5;224mx[m:[95m3[m:[95m3[m:[96msys[m:[38;5;121m/dev[m:[93m/usr/sbin/nologin[m
+[1m[96msync[m:[38;5;224mx[m:[95m4[m:[95m65534[m:[96msync[m:[38;5;121m/bin[m:[93m/bin/sync[m
+[1m[96mgames[m:[38;5;224mx[m:[95m5[m:[95m60[m:[96mgames[m:[38;5;121m/usr/games[m:[93m/usr/sbin/nologin[m
+[1m[96mman[m:[38;5;224mx[m:[95m6[m:[95m12[m:[96mman[m:[38;5;121m/var/cache/man[m:[93m/usr/sbin/nologin[m
+[1m[96mlp[m:[38;5;224mx[m:[95m7[m:[95m7[m:[96mlp[m:[38;5;121m/var/spool/lpd[m:[93m/usr/sbin/nologin[m
+[1m[96mmail[m:[38;5;224mx[m:[95m8[m:[95m8[m:[96mmail[m:[38;5;121m/var/mail[m:[93m/usr/sbin/nologin[m
+[1m[96mnews[m:[38;5;224mx[m:[95m9[m:[95m9[m:[96mnews[m:[38;5;121m/var/spool/news[m:[93m/usr/sbin/nologin[m
+[1m[96muucp[m:[38;5;224mx[m:[95m10[m:[95m10[m:[96muucp[m:[38;5;121m/var/spool/uucp[m:[93m/usr/sbin/nologin[m
+[1m[96mproxy[m:[38;5;224mx[m:[95m13[m:[95m13[m:[96mproxy[m:[38;5;121m/bin[m:[93m/usr/sbin/nologin[m
+[1m[96mwww-data[m:[38;5;224mx[m:[95m33[m:[95m33[m:[96mwww-data[m:[38;5;121m/var/www[m:[93m/usr/sbin/nologin[m
+[1m[96mbackup[m:[38;5;224mx[m:[95m34[m:[95m34[m:[96mbackup[m:[38;5;121m/var/backups[m:[93m/usr/sbin/nologin[m
+[1m[96mlist[m:[38;5;224mx[m:[95m38[m:[95m38[m:[96mMailing List Manager[m:[38;5;121m/var/list[m:[93m/usr/sbin/nologin[m
+[1m[96mirc[m:[38;5;224mx[m:[95m39[m:[95m39[m:[96mircd[m:[38;5;121m/var/run/ircd[m:[93m/usr/sbin/nologin[m
+[1m[96mgnats[m:[38;5;224mx[m:[95m41[m:[95m41[m:[96mGnats Bug-Reporting System (admin)[m:[38;5;121m/var/lib/gnats[m:[93m/usr/sbin/nologin[m
+[1m[96mnobody[m:[38;5;224mx[m:[95m65534[m:[95m65534[m:[96mnobody[m:[38;5;121m/nonexistent[m:[93m/usr/sbin/nologin[m
+[1m[96msystemd-network[m:[38;5;224mx[m:[95m100[m:[95m102[m:[96msystemd Network Management,,,[m:[38;5;121m/run/systemd/netif[m:[93m/usr/sbin/nologin[m
+[1m[96msystemd-resolve[m:[38;5;224mx[m:[95m101[m:[95m103[m:[96msystemd Resolver,,,[m:[38;5;121m/run/systemd/resolve[m:[93m/usr/sbin/nologin[m
+[1m[96msyslog[m:[38;5;224mx[m:[95m102[m:[95m106[m::[38;5;121m/home/syslog[m:[93m/usr/sbin/nologin[m
+[1m[96mmessagebus[m:[38;5;224mx[m:[95m103[m:[95m107[m::[38;5;121m/nonexistent[m:[93m/usr/sbin/nologin[m
+[1m[96m_apt[m:[38;5;224mx[m:[95m104[m:[95m65534[m::[38;5;121m/nonexistent[m:[93m/usr/sbin/nologin[m
+[1m[96muuidd[m:[38;5;224mx[m:[95m105[m:[95m111[m::[38;5;121m/run/uuidd[m:[93m/usr/sbin/nologin[m
+[1m[96mavahi-autoipd[m:[38;5;224mx[m:[95m106[m:[95m112[m:[96mAvahi autoip daemon,,,[m:[38;5;121m/var/lib/avahi-autoipd[m:[93m/usr/sbin/nologin[m
+[1m[96musbmux[m:[38;5;224mx[m:[95m107[m:[95m46[m:[96musbmux daemon,,,[m:[38;5;121m/var/lib/usbmux[m:[93m/usr/sbin/nologin[m
+[1m[96mdnsmasq[m:[38;5;224mx[m:[95m108[m:[95m65534[m:[96mdnsmasq,,,[m:[38;5;121m/var/lib/misc[m:[93m/usr/sbin/nologin[m
+[1m[96mrtkit[m:[38;5;224mx[m:[95m109[m:[95m114[m:[96mRealtimeKit,,,[m:[38;5;121m/proc[m:[93m/usr/sbin/nologin[m
+[1m[96mspeech-dispatcher[m:[38;5;224mx[m:[95m110[m:[95m29[m:[96mSpeech Dispatcher,,,[m:[38;5;121m/var/run/speech-dispatcher[m:[93m/bin/false[m
+[1m[96mwhoopsie[m:[38;5;224mx[m:[95m111[m:[95m117[m::[38;5;121m/nonexistent[m:[93m/bin/false[m
+[1m[96mkernoops[m:[38;5;224mx[m:[95m112[m:[95m65534[m:[96mKernel Oops Tracking Daemon,,,[m:[38;5;121m/[m:[93m/usr/sbin/nologin[m
+[1m[96msaned[m:[38;5;224mx[m:[95m113[m:[95m119[m::[38;5;121m/var/lib/saned[m:[93m/usr/sbin/nologin[m
+[1m[96mpulse[m:[38;5;224mx[m:[95m114[m:[95m120[m:[96mPulseAudio daemon,,,[m:[38;5;121m/var/run/pulse[m:[93m/usr/sbin/nologin[m
+[1m[96mavahi[m:[38;5;224mx[m:[95m115[m:[95m122[m:[96mAvahi mDNS daemon,,,[m:[38;5;121m/var/run/avahi-daemon[m:[93m/usr/sbin/nologin[m
+[1m[96mcolord[m:[38;5;224mx[m:[95m116[m:[95m123[m:[96mcolord colour management daemon,,,[m:[38;5;121m/var/lib/colord[m:[93m/usr/sbin/nologin[m
+[1m[96mhplip[m:[38;5;224mx[m:[95m117[m:[95m7[m:[96mHPLIP system user,,,[m:[38;5;121m/var/run/hplip[m:[93m/bin/false[m
+[1m[96mgeoclue[m:[38;5;224mx[m:[95m118[m:[95m124[m::[38;5;121m/var/lib/geoclue[m:[93m/usr/sbin/nologin[m
+[1m[96mgnome-initial-setup[m:[38;5;224mx[m:[95m119[m:[95m65534[m::[38;5;121m/run/gnome-initial-setup/[m:[93m/bin/false[m
+[1m[96mgdm[m:[38;5;224mx[m:[95m120[m:[95m125[m:[96mGnome Display Manager[m:[38;5;121m/var/lib/gdm3[m:[93m/bin/false[m
+[1m[96mccirelli2[m:[38;5;224mx[m:[95m1000[m:[95m1000[m:[96mChris Cirelli,,,[m:[38;5;121m/home/ccirelli2[m:[93m/bin/bash[m
+[1m[96mcups-pk-helper[m:[38;5;224mx[m:[95m121[m:[95m116[m:[96muser for cups-pk-helper service,,,[m:[38;5;121m/home/cups-pk-helper[m:[93m/usr/sbin/nologin[m
+[1m[96mmysql[m:[38;5;224mx[m:[95m123[m:[95m128[m:[96mMySQL Server,,,[m:[38;5;121m/nonexistent[m:[93m/bin/false[m
+[1m[96mnvidia-persistenced[m:[38;5;224mx[m:[95m122[m:[95m127[m:[96mNVIDIA Persistence Daemon,,,[m:[38;5;121m/nonexistent[m:[93m/sbin/nologin[m
+[94m~                                                                                                     [45;1H~                                                                                                     [46;1H~                                                                                                     [47;1H~                                                                                                     [48;1H~                                                                                                     [49;1H~                                                                                                     [50;1H~                                                                                                     [51;1H~                                                                                                     [52;1H~                                                                                                     [m[53;85H1,1[11CAll"passwd" [readonly] 43L, 2562C[1;1H[?25h[?25l[53;75H:[1;1H[53;1H[K[53;1H:[?2004h[?25hq[?25l[?25h[?25l[?2004l[53;1H[K[53;1H[?2004l[?1l>[?25h[?1049l[23;0;0t]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ [H[2J]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ [K]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ 
+]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ 
+]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ 
+]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ 
+]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ [H[2J]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ l[Kcd[K[Kls[K[Kls
+[0m[01;34macpi[0m                    [01;34mghostscript[0m      mailcap                  [01;34mresolvconf[0m
+adduser.conf            [01;34mglvnd[0m            mailcap.order            [01;36mresolv.conf[0m
+[01;34malternatives[0m            [01;34mgnome[0m            manpath.config           [01;32mrmt[0m
+anacrontab              [01;34mgroff[0m            mime.types               rpc
+[01;34mapache2[0m                 group            mke2fs.conf              rsyslog.conf
+apg.conf                group-           [01;34mmodprobe.d[0m               [01;34mrsyslog.d[0m
+[01;34mapm[0m                     [01;34mgrub.d[0m           modules                  [01;34msane.d[0m
+[01;34mapparmor[0m                gshadow          [01;34mmodules-load.d[0m           securetty
+[01;34mapparmor.d[0m              gshadow-         [01;36mmtab[0m                     [01;34msecurity[0m
+[01;34mapport[0m                  [01;34mgss[0m              mtools.conf              [01;34mselinux[0m
+appstream.conf          [01;34mgtk-2.0[0m          [01;34mmysql[0m                    sensors3.conf
+[01;34mapt[0m                     [01;34mgtk-3.0[0m          nanorc                   [01;34msensors.d[0m
+[01;34mavahi[0m                   hdparm.conf      [01;34mnetplan[0m                  services
+bash.bashrc             host.conf        [01;34mnetwork[0m                  shadow
+bash_completion         hostname         [01;34mnetworkd-dispatcher[0m      shadow-
+[01;34mbash_completion.d[0m       hosts            [01;34mNetworkManager[0m           shells
+bindresvport.blacklist  hosts.allow      networks                 [01;34mskel[0m
+[01;34mbinfmt.d[0m                hosts.deny       [01;34mnewt[0m                     [01;34mspeech-dispatcher[0m
+[01;34mbluetooth[0m               [01;34mhp[0m               nsswitch.conf            [01;34mssh[0m
+brlapi.key              [01;34mifplugd[0m          [01;34mODBCDataSources[0m          [01;34mssl[0m
+[01;34mbrltty[0m                  [01;34mImageMagick-6[0m    odbc.ini                 subgid
+brltty.conf             [01;34minit[0m             odbcinst.ini             subgid-
+[01;34mca-certificates[0m         [01;34minit.d[0m           [01;34mOpenCL[0m                   subuid
+ca-certificates.conf    [01;34minitramfs-tools[0m  [01;34mopt[0m                      subuid-
+[01;34mcalendar[0m                inputrc          [01;34moracle-java9-jdk[0m         sudoers
+[01;34mchatscripts[0m             [01;34minsserv.conf.d[0m   [01;36mos-release[0m               [01;34msudoers.d[0m
+[01;34mconsole-setup[0m           [01;34miproute2[0m         [01;34mPackageKit[0m               sysctl.conf
+[01;34mcracklib[0m                issue            pam.conf                 [01;34msysctl.d[0m
+[01;34mcron.d[0m                  issue.net        [01;34mpam.d[0m                    [01;34msystemd[0m
+[01;34mcron.daily[0m              [01;34mjava-11-openjdk[0m  papersize                [01;34mterminfo[0m
+[01;34mcron.hourly[0m             [01;34mkernel[0m           passwd                   [01;34mthermald[0m
+[01;34mcron.monthly[0m            kernel-img.conf  passwd-                  [01;34mthunderbird[0m
+crontab                 kerneloops.conf  [01;34mpcmcia[0m                   timezone
+[01;34mcron.weekly[0m             [01;34mldap[0m             [01;34mperl[0m                     [01;34mtmpfiles.d[0m
+[01;34mcups[0m                    ld.so.cache      [01;34mpki[0m                      ucf.conf
+[01;34mcupshelpers[0m             ld.so.conf       [01;34mpm[0m                       [01;34mudev[0m
+[01;34mdbus-1[0m                  [01;34mld.so.conf.d[0m     pnm2ppa.conf             [01;34mudisks2[0m
+[01;34mdconf[0m                   legal            [01;34mpolkit-1[0m                 [01;34mufw[0m
+debconf.conf            libao.conf       popularity-contest.conf  updatedb.conf
+debian_version          libaudit.conf    [01;34mppp[0m                      [01;34mupdate-manager[0m
+[01;34mdefault[0m                 [01;34mlibblockdev[0m      prime-discrete           [01;34mupdate-motd.d[0m
+deluser.conf            [01;34mlibnl-3[0m          [01;36mprintcap[0m                 [01;34mupdate-notifier[0m
+[01;34mdepmod.d[0m                [01;34mlibpaper.d[0m       profile                  [01;34mUPower[0m
+[01;34mdhcp[0m                    [01;34mlibreoffice[0m      [01;34mprofile.d[0m                usb_modeswitch.conf
+[01;34mdictionaries-common[0m     [01;34mlighttpd[0m         protocols                [01;34musb_modeswitch.d[0m
+[01;34mdkms[0m                    lintianrc        [01;34mpulse[0m                    vdpau_wrapper.cfg
+[01;34mdpkg[0m                    locale.alias     [01;34mpython[0m                   [01;34mvim[0m
+drirc                   locale.gen       [01;34mpython2.7[0m                [01;36mvtrgb[0m
+[01;34memacs[0m                   [01;36mlocaltime[0m        [01;34mpython3[0m                  wgetrc
+environment             [01;34mlogcheck[0m         [01;34mpython3.6[0m                whoopsie
+[01;34mfirefox[0m                 login.defs       [01;34mR[0m                        [01;34mwpa_supplicant[0m
+[01;34mfonts[0m                   logrotate.conf   [01;34mrc0.d[0m                    [01;34mX11[0m
+fstab                   [01;34mlogrotate.d[0m      [01;34mrc1.d[0m                    [01;34mxdg[0m
+fuse.conf               lsb-release      [01;34mrc2.d[0m                    [01;34myum[0m
+[01;34mfwupd[0m                   ltrace.conf      [01;34mrc3.d[0m                    [01;34myum.repos.d[0m
+gai.conf                [01;34mlvm[0m              [01;34mrc4.d[0m                    zsh_command_not_found
+[01;34mgdb[0m                     machine-id       [01;34mrc5.d[0m
+[01;34mgdm3[0m                    magic            [01;34mrc6.d[0m
+[01;34mgeoclue[0m                 magic.mime       [01;34mrcS.d[0m
+]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ cat shadow
+cat: shadow: Permission denied
+]0;ccirelli2@born2ride: /etc[01;32mccirelli2@born2ride[00m:[01;34m/etc[00m$ sudo cat shadow
+[sudo] password for ccirelli2: 
+root:!:17706:0:99999:7:::
+daemon:*:17647:0:99999:7:::
+bin:*:17647:0:99999:7:::
+sys:*:17647:0:99999:7:::
+sync:*:17647:0:99999:7:::
+games:*:17647:0:99999:7:::
+man:*:17647:0:99999:7:::
+lp:*:17647:0:99999:7:::
+mail:*:17647:0:99999:7:::
+news:*:17647:0:99999:7:::
+uucp:*:17647:0:99999:7:::
+proxy:*:17647:0:99999:7:::
+www-data:*:17647:0:99999:7:::
+backup:*:17647:0:99999:7:::
+list:*:17647:0:99999:7:::
+irc:*:17647:0:99999:7:::
+gnats:*:17647:0:99999:7:::
+nobody:*:17647:0:99999:7:::
+systemd-network:*:17647:0:99999:7:::
+systemd-resolve:*:17647:0:99999:7:::
